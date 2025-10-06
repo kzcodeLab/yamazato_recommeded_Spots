@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Villa Yamazato Recommended Spots</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Sans+JP:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1>
+          <span class="hero__title-ja">山里の家おすすめスポット</span>
+          <span class="hero__title-en">Recommended Spots</span>
+        </h1>
+        <p>
+          宿の周辺で楽しめる飲食店や観光スポットをまとめました。<br />
+          Discover handpicked cafes, restaurants, and local attractions near the villa.
+        </p>
+        <nav class="hero__nav">
+          <a href="#breakfast" class="hero__link">
+            <span class="hero__link-ja">朝食</span>
+            <span class="hero__link-en">Breakfast</span>
+          </a>
+          <a href="#lunch" class="hero__link">
+            <span class="hero__link-ja">ランチ</span>
+            <span class="hero__link-en">Lunch</span>
+          </a>
+          <a href="#dinner" class="hero__link">
+            <span class="hero__link-ja">ディナー</span>
+            <span class="hero__link-en">Dinner</span>
+          </a>
+          <a href="#markets" class="hero__link">
+            <span class="hero__link-ja">スーパー・コンビニ・ドラッグストア</span>
+            <span class="hero__link-en">Supermarkets / Convenience / Drugstores</span>
+          </a>
+          <a href="#beaches" class="hero__link">
+            <span class="hero__link-ja">ビーチ・観光</span>
+            <span class="hero__link-en">Beaches &amp; Sightseeing</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="category" id="breakfast" data-category="breakfast">
+        <h2>朝食 Breakfast</h2>
+        <div class="card-grid"></div>
+      </section>
+
+      <section class="category" id="lunch" data-category="lunch">
+        <h2>ランチ Lunch</h2>
+        <div class="card-grid"></div>
+      </section>
+
+      <section class="category" id="dinner" data-category="dinner">
+        <h2>ディナー Dinner</h2>
+        <div class="card-grid"></div>
+      </section>
+
+      <section class="category" id="markets" data-category="markets">
+        <h2>
+          スーパーマーケット・コンビニ・ドラッグストア<br />
+          Supermarkets, Convenience Stores, Drugstores
+        </h2>
+        <div class="card-grid"></div>
+      </section>
+
+      <section class="category" id="beaches" data-category="beaches">
+        <h2>ビーチ・観光スポット Beaches &amp; Sightseeing</h2>
+        <div class="card-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        山里の家おすすめスポットマップ — Updated for our guests.<br />
+        Website by kzcodelab. All Rights Reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
