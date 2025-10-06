@@ -29,6 +29,7 @@ body {
   display: grid;
   align-items: center;
   padding: 6rem 1.5rem 4rem;
+  overflow: hidden;
   background-image: url("images/space Detail（ヒーローセクション）.jpg");
   background-size: cover;
   background-position: center;
@@ -44,10 +45,11 @@ body {
 
 .hero__content {
   position: relative;
-  max-width: 1100px;
+  max-width: min(1100px, 100%);
   margin: 0 auto;
   display: grid;
   gap: 2rem;
+  padding: 0 1rem;
 }
 
 .hero h1 {
@@ -83,8 +85,8 @@ body {
 .hero__nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.85rem;
-  width: min(960px, 100%);
+  gap: clamp(0.6rem, 2vw, 0.85rem);
+  width: min(900px, 100%);
   margin: 0 auto;
 }
 
@@ -94,8 +96,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.25rem;
-  padding: 1.1rem 1.35rem;
-  min-height: 6.4rem;
+  padding: 1rem clamp(1rem, 2vw, 1.35rem);
+  min-height: 6.2rem;
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
@@ -350,76 +352,74 @@ main {
 
 @media (max-width: 599px) {
   .hero {
-    padding: 4.5rem 1.25rem 3.5rem;
+    padding: 4.4rem 0.85rem 3.4rem;
   }
 
   .hero__content {
-    gap: 1.75rem;
+    gap: 1.6rem;
+    padding: 0;
   }
 
   .hero__nav {
     grid-template-columns: 1fr;
     width: 100%;
-    gap: 0.6rem;
-    padding: 0 0.2rem;
+    gap: 0.55rem;
+    padding: 0;
   }
 
   .hero__link {
     min-width: 0;
     width: 100%;
-    min-height: auto;
-    height: auto;
-    padding: 0.9rem 0.95rem;
-    gap: 0.2rem;
+    padding: 0.85rem 0.9rem;
+    gap: 0.18rem;
   }
 
   .hero__link-ja {
-    font-size: 0.95rem;
-    letter-spacing: 0.03em;
+    font-size: 0.92rem;
+    letter-spacing: 0.025em;
   }
 
   .hero__link-en {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     letter-spacing: 0.02em;
   }
 }
 
 @media (max-width: 360px) {
   .hero__nav {
-    gap: 0.45rem;
+    gap: 0.4rem;
   }
 
   .hero__link {
-    padding: 0.7rem 0.7rem;
+    padding: 0.65rem 0.65rem;
   }
 
   .hero__link-ja {
-    font-size: 0.82rem;
-    letter-spacing: 0.015em;
+    font-size: 0.8rem;
+    letter-spacing: 0.012em;
   }
 
   .hero__link-en {
-    font-size: 0.72rem;
-    letter-spacing: 0.015em;
+    font-size: 0.7rem;
+    letter-spacing: 0.012em;
   }
 }
 
 @media (max-width: 480px) {
   .hero__nav {
-    gap: 0.55rem;
-    padding: 0 0.15rem;
+    gap: 0.5rem;
   }
 
   .hero__link {
-    padding: 0.85rem 0.85rem;
+    padding: 0.78rem 0.78rem;
   }
 
   .hero__link-ja {
-    font-size: 0.9rem;
+    font-size: 0.86rem;
   }
 
   .hero__link-en {
-    font-size: 0.78rem;
+    font-size: 0.76rem;
   }
 }
 
