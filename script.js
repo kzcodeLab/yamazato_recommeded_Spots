@@ -346,7 +346,7 @@ const categoryData = {
       distance: "宿から: 車で約20分 / About 20 min by car",
       price: null,
       mapUrl:
-        "https://www.google.com/maps/place/%E3%82%BF%E3%82%A6%E3%83%B3%E3%83%97%E3%83%A9%E3%82%B6%E3%81%8B%E3%81%AD%E3%81%B2%E3%81%A7+%E3%82%88%E3%81%AA%E3%81%B0%E3%82%8B%E5%B8%82%E5%A0%B4/data=!4m2!3m1!1s0x0:0xf14410227d6e82ac?sa=X&ved=1t:2428&hl=ja&ictx=111",
+        "https://www.google.com/maps/place/%E3%83%9E%E3%83%AA%E3%83%B3%E3%83%97%E3%83%A9%E3%82%B6%E3%81%8B%E3%81%AD%E3%81%B2%E3%81%A7+%E6%9D%B1%E6%B5%9C%E5%B8%82%E5%A0%B4/@26.2063704,127.7640327,676m/data=!3m2!1e3!4b1!4m6!3m5!1s0x34e56c2b797ef1bf:0x45809bbecda0c5e3!8m2!3d26.2063704!4d127.7640327!16s%2Fg%2F1tmg9594?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D",
     },
     {
       nameJa: "ファミリーマート 南城親慶原店",
