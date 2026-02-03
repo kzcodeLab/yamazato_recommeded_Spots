@@ -251,22 +251,6 @@ const categoryData = {
         "https://www.google.com/maps/place/%E5%A5%A5%E6%AD%A6%E5%B3%B6%E6%B5%B7%E7%94%A3%E7%89%A9%E9%A3%9F%E5%A0%82/@26.1315969,127.7737821,887m/data=!3m2!1e3!4b1!4m6!3m5!1s0x34fa9b9e97fe8659:0x8d6658489261682e!8m2!3d26.1315969!4d127.7737821!16s%2Fg%2F1wj_3t6h?hl=ja&entry=ttu",
     },
     {
-      nameJa: "うしお居酒屋",
-      nameEn: "Izakaya Ushio",
-      image:
-        "images/Izakaya Ushio.png",
-      descriptionJa:
-        "海の幸と沖縄料理が楽しめる居酒屋。座敷があるため家族連れでも使いやすいお店です。",
-      descriptionEn:
-        "A Japanese pub where you can enjoy seafood and Okinawan cuisine. With tatami seating available, it's a family-friendly establishment.",
-      hours: "営業時間 Hours: 17:00-22:00",
-      address: "〒901-1414 沖縄県南城市佐敷津波古380-1",
-      distance: "宿から: 車で約15分 / About 15 min by car",
-      price: "価格帯 Price: ￥3,000～4,000 / person",
-      mapUrl:
-        "https://www.google.com/maps/place/%E3%81%86%E3%81%97%E3%81%8A/@26.182746,127.777049,886m/data=!3m2!1e3!4b1!4m6!3m5!1s0x34e56e68aacea05d:0x358456cef04fa0a0!8m2!3d26.182746!4d127.777049!16s%2Fg%2F1tf6378n?hl=ja&entry=ttu",
-    },
-    {
       nameJa: "割烹常",
       nameEn: "Izakaya Tsune",
       image:
